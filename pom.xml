@@ -204,7 +204,7 @@
       <cucumber.guice.version>4.0</cucumber.guice.version>
       <unitils.version>3.3</unitils.version>
       <!-- Netty is used by Kinesis Video -->
-      <netty.version>4.1.17.Final</netty.version>
+      <netty.version>4.1.66.Final</netty.version>
   </properties>
   <dependencyManagement>
     <dependencies>
@@ -299,13 +299,13 @@
       <build>
         <pluginManagement>
           <plugins>
-            <plugin >
+            <plugin>
               <groupId>org.apache.maven.plugins</groupId>
               <artifactId>maven-surefire-plugin</artifactId>
               <version>2.19.1</version>
               <configuration>
                 <excludes combine.self="override">
-                  <exclude></exclude>
+                  <exclude/>
                 </excludes>
               </configuration>
             </plugin>
